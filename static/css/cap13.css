@@ -1,0 +1,48 @@
+* {
+  margin: 0; 
+  padding: 0; 
+  border: 0;
+}
+
+body {    
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(19, 19, 185);
+  background-color: darkgrey;
+}
+h1 {
+  font-size: 4rem;
+  margin: 1.5rem;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#chk-tablas {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+.chk-tablas-item {
+  margin: 1rem;
+}
+
+.tabla {
+  border: 3px;
+  background-color:lightgrey;
+  margin: 1.5rem;
+  width: 80%;
+}
+
+.cabecera {
+  background: cornflowerblue;
+  color: white;
+  text-align: center;
+  }
+
+.numerico {
+  text-align: center;
+}

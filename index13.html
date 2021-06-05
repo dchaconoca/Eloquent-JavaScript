@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eloquent Javascript - Capítulo 13</title>
+
+  <link rel="stylesheet" href="./static/css/cap13.css">
+</head>
+<body>
+  <main id="main">
+    <h1>Mis tablas</h1>
+    <!-- <button id="btn-tablas" onclick="construirTabla('montañas', montanas)">Obtener Montañas</button> -->
+    <div id="chk-tablas">
+      <label for="chk-tablas">Selecciona las tablas que quieres ver:</label>
+      
+      <div class="chk-tablas-item">
+          <input type="checkbox" name="chk-tablas" id="chk-montañas" value="montañas" onchange="mostrarTabla('chk-montañas','montañas', montanas)">
+          <label for="chk-montañas">Montañas</label>
+      </div>
+          
+      <div class="chk-tablas-item">
+          <input type="checkbox" name="chk-tablas" id="chk-clientes" value="clientes" onchange="mostrarTabla('chk-clientes','clientes', clientes)">
+          <label for="chk-clientes">Clientes</label>
+      </div>
+          
+      <div class="chk-tablas-item">
+          <input type="checkbox" name="chk-tablas" id="chk-bancos" value="bancos" onchange="mostrarTabla('chk-bancos','bancos', bancos)">
+          <label for="chk-tablas">Bancos</label>
+      </div>
+     
+  </div>
+    
+    <div id="montañas"></div>
+    <div id="clientes"></div>
+    <div id="bancos"></div>
+  </main>
+  <script src="./static/js/capitulo-13.js"></script>
+</body>
+</html>
